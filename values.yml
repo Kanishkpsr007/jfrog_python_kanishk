@@ -1,7 +1,7 @@
 GitRepo:
  name: jfrog_python
  gitProvider: py_template
- path: kanishkpsr007/jforg_python_kanishk
+ path: kanishkpsr007/jfrog_python_kanishk
  branch: master
 Docker:
  name: pytdocker
