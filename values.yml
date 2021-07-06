@@ -1,0 +1,15 @@
+GitRepo:
+ name: jfrog_python
+ gitProvider: py_test
+ path: kanishkpsr007/jforg_python_kanishk
+ branch: master
+Docker:
+ name: pytdocker
+ registry: kanishk_docker
+ imageName: kanishkrajawat01/pytdocker
+ imageTag: latest
+ file: dockerfile
+ filelocation: .
+Env:
+ dockeracc: kanishkrajawat01
+ dockerrepo: pytdocker
