@@ -10,6 +10,8 @@ Docker:
  imageTag: latest
  file: dockerfile
  filelocation: .
+Python:
+ file: fibonaccisq
 Env:
  dockeracc: kanishkrajawat01
  dockerrepo: pytdocker
