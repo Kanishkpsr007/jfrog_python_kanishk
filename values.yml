@@ -11,7 +11,7 @@ Docker:
  file: dockerfile
  filelocation: .
 Python:
- file: fibonaccisq
+ file: fibonaccisq.py
 Env:
  dockeracc: kanishkrajawat01
  dockerrepo: pytdocker
