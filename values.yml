@@ -15,3 +15,22 @@ Python:
 Env:
  dockeracc: kanishkrajawat01
  dockerrepo: pytdocker
+Jfdocker:
+ name: d_image
+ registry: test_docker_build
+ sourceRepository: jfrogdockerbuild
+ imageName: jfrogdockerbuild/dimage
+ imageTag: latest
+Build:
+ name: d_build_info
+ buildName: d_build
+Dockerbuild:
+ name: docker_build
+ affinityGroup: d_group
+ dockerFileLocation: .
+ dockerFileName: dockerfile.yml
+ dockerImageTag: ${run_number}
+Dockerpush:
+ name: docker_push
+Dockerpublish:
+ name: publish_d_build
